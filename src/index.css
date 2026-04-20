@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", "Apple SD Gothic Neo", serif;
+  
+  --color-natural-bg: #f5f5f0;
+  --color-natural-sidebar: #ecece4;
+  --color-natural-accent: #5A5A40;
+  --color-natural-text: #33332d;
+  --color-natural-muted: #78786a;
+  --color-natural-card: #ffffff;
+  --color-natural-border: #c8c8b4;
+  --color-natural-badge: #f0f0e8;
+}
+
+body {
+  font-family: var(--font-serif);
+  background-color: var(--color-natural-bg);
+  color: var(--color-natural-text);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
